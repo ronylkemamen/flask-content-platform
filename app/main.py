@@ -10,7 +10,7 @@ app.register_blueprint(content_bp)
 
 @app.route("/")
 def home():
-    return "<h1>Bienvenue sur la plateforme de diffusion de contenu ! </h1>"
+    return "<h1>Bienvenue sur la plateforme de diffusion de contenu</h1>"
 
 
 if __name__ == "__main__":
