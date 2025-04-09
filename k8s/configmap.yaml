@@ -3,4 +3,4 @@ kind: ConfigMap
 metadata:
   name: flask-config
 data:
-  FLASK_ENV: "production"
+  blob_url: "https://mystorageaccount.blob.core.windows.net/static-content"
