@@ -18,5 +18,5 @@ RUN pip install -r requirements.txt
 EXPOSE 5000
 
 # Lancer l'application Flask
-CMD ["python", "app/main.py"]
+CMD ["python", "app/routes.py"]
 
